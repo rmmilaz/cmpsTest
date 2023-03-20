@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form Example Module 9 Juan Barrera</title>
+</head>
+<body>
+	<h2>CMPS-162 Survery Form RM</h2>
+	<form>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" minlength="8" required>
+		<br>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" minlength="12" required>
+		<br>
+		<input type="submit" value="Login">
+	</form>
+</body>
+</html>
